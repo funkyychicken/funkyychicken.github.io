@@ -1,0 +1,40 @@
+body{
+  font-family: Jost;
+  color:black;
+
+}
+
+.page_components2{
+	width:700px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border: 3px solid;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+	animation: spring 5s infinite;
+	animation-fill-mode: forwards;
+}
+
+.page_components2 hover{
+	animation-name: spring;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+.page_components2 img{
+	width:500px;
+}
+
+@keyframes spring {
+  50% {border-top-left-radius: 150px;}
+	50% {border-top-right-radius: 150px;}
+	50% {border-bottom-left-radius: 150px;}
+	50% {border-bottom-right-radius: 150px;}
+}
+
+
+
+
+
